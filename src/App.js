@@ -131,7 +131,6 @@ function App(req, res) {
 
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/cook-github-pages" element={<Home />} />
                 <Route path="/connexion" element={<Connexion />} />
                 <Route path="/inscription" element={<Inscription />} />
                 <Route path="/recipe/:id" element={<RecipePage />} />
