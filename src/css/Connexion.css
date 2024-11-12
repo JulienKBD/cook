@@ -1,0 +1,94 @@
+.connexion-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: #f3f4f6;
+    margin-bottom: 97px;
+}
+
+.connexion-page h2 {
+    text-align: center;
+    color: #333;
+}
+
+.connexion-page form {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.connexion-page form div {
+    margin-bottom: 1.5rem;
+}
+
+.connexion-page form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.connexion-page form input[type="name"],
+.connexion-page form input[type="firstname"],
+.connexion-page form input[type="email"],
+.connexion-page form input[type="password"] {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.connexion-page form input[type="email"]:focus,
+.connexion-page form input[type="password"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.connexion-page button[type="submit"] {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.connexion-page button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: red;
+}
+
+.switch_button {
+    color: #0056b3;
+}
+
+.Google_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Google_button a {
+    margin-left: 10px;
+    color: black;
+    text-decoration: none;
+}
